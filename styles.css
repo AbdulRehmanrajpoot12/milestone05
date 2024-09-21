@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Resume Builder Container */
+  #resume-builder {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #generate-resume,
+  #download-resume {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Section Dividers */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Resume Preview */
+  #resume-preview {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  #resume-preview h2 {
+    font-size: 1.75rem;
+    color: #333;
+  }
+  
+  #resume-preview p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  #resume-preview strong {
+    font-size: 1.1rem;
+  }
+  
+  /* Lists */
+  #experience-list p, 
+  #skills-list p, 
+  #education-list p {
+    margin: 8px 0;
+    font-size: 1rem;
+    padding-left: 10px;
+    color: #555;
+  }
+  
+  /* Form Labels */
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+  }
+  
+  

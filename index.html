@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="resume-builder">
+    <h1>Unique Resume Builder</h1>
+    
+    <section id="personal-info">
+      <h2>Personal Information</h2>
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="email" placeholder="Email" />
+      <input type="text" id="phone" placeholder="Phone" />
+    </section>
+
+    <section id="experience-section">
+      <h2>Experience</h2>
+      <div id="experience-list"></div>
+      <button id="add-experience">Add Experience</button>
+    </section>
+
+    <section id="skills-section">
+      <h2>Skills</h2>
+      <div id="skills-list"></div>
+      <button id="add-skill">Add Skill</button>
+    </section>
+
+    <section id="education-section">
+      <h2>Education</h2>
+      <div id="education-list"></div>
+      <button id="add-education">Add Education</button>
+    </section>
+
+    <button id="generate-resume">Generate Resume</button>
+    <button id="download-resume">Download Resume</button>
+
+    <div id="resume-preview"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
